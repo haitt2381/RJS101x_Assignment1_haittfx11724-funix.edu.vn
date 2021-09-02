@@ -1,0 +1,38 @@
+.box-show-staff {
+    background-color: rgb(100, 102, 99);
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 1.5s all ease-in-out;
+}
+
+.box-show-staff button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid #bdbdbd;
+    background-color: #a7a7a7;
+    color: black;
+    border-radius: 12px;
+    margin-right: 1rem;
+    transition: all 0.3s ease;
+}
+
+.box-show-staff button:hover {
+    background-color: #363536;
+    color: white;
+    border: 1px solid #363536;
+}
+
+@media screen and (max-width: 768px) {
+    .box-show-staff {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .box-show-staff {
+        width: 100%;
+    }
+}
